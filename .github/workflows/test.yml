@@ -1,11 +1,12 @@
 name: 'publish-action'
 on: # rebuild any PRs and main branch changes
   pull_request:
-  push:
-    branches:
-      - main
-      - 'releases/*'
+#   push:
+#     branches:
+#       - main
+#       - 'releases/*'
   workflow_dispatch:
+  release: 
 
 jobs:
   test: # make sure the action works on a clean machine without building
