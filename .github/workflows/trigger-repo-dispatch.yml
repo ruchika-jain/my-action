@@ -11,4 +11,4 @@ jobs:
           url: 'https://api.github.com/repos/ruchika-jain/hello-action/dispatches'
           method: 'POST'
           customHeaders: '{"Accept": "application/vnd.github+json", "Authorization": "Bearer ${{ github.token }}"}'
-          data: '{"event_type":"actions-package-migrate","client_payload":{"release":{"tag_name":"1.1.0", "id":"83085172"}}}'
+          data: '{"event_type":"actions-package-migrate","client_payload":{"release":{"tag_name":"0.1.0", "id":"82995930"}}}'
