@@ -35,4 +35,9 @@ jobs:
       - name: Print github context payload
         run: echo '${{ toJSON(github) }}'
         
+      - name: Publish action 
+        uses: actions-on-packages/package-action@ruchika-jain/add-repo-dispatch-flow
+#        with: 
+#            path: 'dist/'
+        
         
